@@ -1,11 +1,10 @@
 from flask import Flask, request, render_template, redirect, flash
-from flask_debugtoolbar import DebugToolbarExtension
 from surveys import Question, Survey, satisfaction_survey
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yeet'
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
-debug = DebugToolbarExtension(app)
+
 
 responses = []
 question_num = 1
