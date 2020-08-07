@@ -1,5 +1,5 @@
 # FLASK_questionnaire
-playing around with Python + Flask as a backend stack
+playing around with Python + Flask as a web stack
 
 https://flask-questionnaire.herokuapp.com/
 
