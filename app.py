@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, redirect, flash
+
 from surveys import Question, Survey, satisfaction_survey
 
 app = Flask(__name__)
