@@ -6,6 +6,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yeet'
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
+#sessions added
 
 responses = []
 question_num = 1
